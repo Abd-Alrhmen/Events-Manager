@@ -1,0 +1,86 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #eee;
+    margin: 0;
+}
+h1 {
+    padding: 20px;
+    margin: 0 0 20px;
+    background-color: white;
+    text-align: center;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 900px;
+    margin: 20px auto; 
+}
+.add-box {
+    background-color: white;
+    padding: 20px;
+}
+.add-box h2 {
+    margin: 0 0 20px;
+    
+}
+.add-box input {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: #f4f3f3;
+}
+.add-box input:focus {
+    outline: none;
+}
+.add-box .add {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.events {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;   
+}
+.events .event {
+    background-color: white;
+    padding: 20px;
+}
+.events .event h3 {
+    margin: 0 0 20px;
+}
+.events .event p {
+    display: flex;
+    justify-content: space-between;
+}
+.events .event p:not(:last-of-type) {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.events .event button {
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px;
+    background: #f44444;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
